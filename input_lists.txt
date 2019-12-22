@@ -1,0 +1,15 @@
+{
+    "districts" : [
+        "AHMEDNAGAR", "AKOLA", "AMRAVATI", "AURANGABAD", "BEED", "BHANDARA", "BULDHANA", "CHANDRAPUR", "DHULE", "GADCHIROLI", 
+        "GONDIA", "HINGOLI", "JALGAON", "JALNA", "KOLHAPUR", "LATUR", "NAGPUR", "NANDED", "NANDURBAR", "NASHIK", 
+        "OSMANABAD", "PARBHANI", "PUNE", "SANGLI", "SATARA", "SOLAPUR", "THANE", "WARDHA", "WASHIM", "YAVATMAL"
+    ],
+
+    "crops" : [
+        "Jowar", "Bajra", "Wheat"
+    ],
+
+    "soils" : [
+        "chalky", "clay", "loamy", "sandy", "silty"
+    ]
+}

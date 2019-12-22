@@ -1,0 +1,152 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.svgs {
+    position: fixed;
+}
+.page {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.scrollIndicator{
+    position: absolute;
+    bottom: 12px;
+    height: 0;
+    width: 0;
+    border-left:  25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top:   25px solid #f00;
+    animation: down 1.5s ease-in-out infinite;
+}
+@keyframes down{
+    0%{ transform: translateY(0);}
+    50%{ transform: translateY(100%);}
+    100%{ transform: translateY(0);}
+}
+
+#part1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#part1 .title {
+    font-size: 3em;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+#part1 .title-support {
+    font-size: 1.4em;
+}
+#part1 .imgContainer {
+    width: 30em;
+    height: 30em;
+}
+#part1 .imgContainer img {
+    width: 100%;
+}
+#part1 .info .dev {
+    margin-top: 4em;
+    margin-bottom: 4em;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+#part1 .info .btn-grp .try {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
+        sans-serif;
+    font-weight: bold;
+    padding: 0.6em 2em;
+    margin-right: 2em;
+    font-size: 1.4em;
+    border: none;
+    border-radius: 40px;
+    background-image: linear-gradient(to right, #1cd8d2, #93edc7);
+    box-shadow: 4px 4px 10px #81ecec;
+    transition: 0.3s;
+}
+#part1 .info .btn-grp .try:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+#part1 .info .btn-grp .more {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
+        sans-serif;
+    padding: 0.6em 2em;
+    font-size: 1.2em;
+    border: 1px solid gray;
+    background-color: transparent;
+    border-radius: 40px;
+    transition: 0.3s;
+}
+#part1 .info .btn-grp .more:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+#part2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.text-blue {
+    color: #5e72e4;
+}
+.text-green {
+    color: #2dce89;
+}
+.text-orange {
+    color: #fb6340;
+}
+#part2 .myCard {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 20em;
+    margin: 3em;
+    min-height: 18em;
+    padding: 1em;
+    border: none;
+    filter: drop-shadow(4px 4px 15px rgba(0, 0, 0, 0.15));
+    transition: 0.25s;
+}
+#part2 .myCard:hover {
+    transform: translateY(-10%);
+}
+#part2 .myCard .myCard-img {
+    width: 4em;
+}
+#part2 .myCard .myCard-img img {
+    width: 100%;
+}
+#part2 .myCard .myCard-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+}
+#part2 .myCard .myCard-body {
+    opacity: 0.75;
+}
+
+#part3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#part3 .imgContainer {
+    width: 20em;
+}
+#part3 .imgContainer img {
+    width: 100%;
+}
