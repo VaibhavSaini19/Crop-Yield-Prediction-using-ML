@@ -5,9 +5,16 @@ The application uses a Random Forest Machine Learning model, which was trained o
 an accuracy of around 86% and can be even further improved with more data.
 
 ## Usage
+- Make sure you have WAMP / XAMPP installed on your machine
+- Clone the repo 
+- Ensure Apache server is running
+- Run index.php through localhost
+- Select the `district`, `Crop`, `Soil` and enter the `Area` 
+- Click on `Predict`
+- Wait for a few seconds
+- The results will appear below the predict button
+
 ```Web link will be available soon...untill then```
-Clone the repo and use your local server (if you know how to)
-or
 Check out the preview
 
 ## Preview
