@@ -77,7 +77,7 @@ if x["cod"] != "404":
 
     X = ['Area', 'Temperature', 'Precipitaion', 'Humidity', 'Soil_type:_chalky',
        'Soil_type:_clay', 'Soil_type:_loamy', 'Soil_type:_peaty',
-       'Soil_type:_sandy', 'Soil_type:_silt', 'Soil_type:_silty',
+       'Soil_type:_sandy', 'Soil_type:_silt',
        'District:_AHMEDNAGAR', 'District:_AKOLA', 'District:_AMRAVATI',
        'District:_AURANGABAD', 'District:_BEED', 'District:_BHANDARA',
        'District:_BULDHANA', 'District:_CHANDRAPUR', 'District:_DHULE',
