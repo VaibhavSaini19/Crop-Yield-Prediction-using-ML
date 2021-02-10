@@ -33,7 +33,7 @@ soil_type = "Soil_type:_"+soil_type
 
 
 
-api_key = "fdb1847fbe28eb846a28e0b4bbcdf25a"
+api_key = "YOUR_API_KEY"    # Use your own API key. You can get it for free from openweathermap
   
 base_url = "http://api.openweathermap.org/data/2.5/weather?"
   
